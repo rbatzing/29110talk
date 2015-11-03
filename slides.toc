@@ -1,7 +1,0 @@
-\beamer@endinputifotherversion {3.33pt}
-\beamer@sectionintoc {1}{Background to ISO 29110}{3}{0}{1}
-\beamer@sectionintoc {2}{Growing Support for ISO29110}{7}{0}{2}
-\beamer@sectionintoc {3}{Comparision with CMMI}{10}{0}{3}
-\beamer@sectionintoc {4}{Project Management Processes}{12}{0}{4}
-\beamer@sectionintoc {5}{Software Implementation Processes}{14}{0}{5}
-\beamer@sectionintoc {6}{Oncloud Supporting Software}{16}{0}{6}
