@@ -1,0 +1,42 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{pgf}
+\usepackage{graphicx}
+\usepackage{url}
+
+\setbeamertemplate{navigation symbols}{} % Remove nav symbols
+\title[ISO29110]{ISO/IEC 29110}
+\subtitle{An Introduction}
+
+
+\author[RP Batzinger]{Dr Robert P Batzinger}
+\institute[PYU IT\&Educ Inno]{Office of Information Technology and Educational Innovation\\
+Payap University, Chiang Mai, Thailand}
+\date{\today}
+
+\usetheme{Madrid}
+\usecolortheme{seahorse}
+
+\setbeamercolor{title}{fg=blue!80!black,bg=blue!10!white}
+
+\usefonttheme{structurebold}
+
+\logo{\includegraphics[height=0.5cm]{pyulogo.png}}
+\renewcommand\appendix{\par
+    \setcounter{section}{0}
+    \setcounter{subsection}{0}
+    \setcounter{figure}{0}
+    \setcounter{table}{0}
+    \renewcommand\thesection{\Alph{section}}
+    \renewcommand\thefigure{\Alph{section}\arabic{figure}}
+    \renewcommand\thetable{\Alph{section}\arabic{table}}
+}
+% % % % % % % % % % % % % % % % % % % % % % % % % 
+\begin{document}
+
+\input{main}
+
+\end{document}
+%

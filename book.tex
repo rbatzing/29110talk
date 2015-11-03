@@ -1,0 +1,49 @@
+\documentclass[12pt]{article}
+\usepackage{beamerarticle}
+\usepackage{fullpage}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{pgf}
+\usepackage{url}
+\usepackage{makeidx}
+
+\makeindex
+\title[Statistical Programming in R]{$$\includegraphics[width=.45\textwidth]{rcourse.png}$$
+Statistical Programming in R}
+\subtitle{Short Course Textbook}
+
+\author{Robert Batzinger}
+\institute{Payap University\\Office of Information Technology and\\
+Educational Innovation\\
+Chiang Mai 50000, Thailand}
+\date{\today}
+
+\usetheme{Madrid}
+\usecolortheme{seahorse}
+
+\setbeamercolor{title}{fg=blue!80!black,bg=blue!10!white}
+
+\usefonttheme{structurebold}
+\let\oldframe\frame
+\let\oldendframe\endframe
+
+\def\frame{\bgroup$$\small\hbox to \textwidth\bgroup\qquad\vrule\quad  \vtop\bgroup\textwidth=.75\textwidth \hsize=\textwidth\relax \oldframe}  
+\def\endframe{\oldendframe \egroup\hss\egroup$$\egroup}
+
+\logo{\includegraphics[height=0.5cm]{pyulogo.png}}
+
+\renewcommand\appendix{\par
+  \setcounter{section}{0}
+  \setcounter{subsection}{0}
+  \setcounter{figure}{0}
+  \setcounter{table}{0}
+  \renewcommand\thesection{\Alph{section}}
+  \renewcommand\thefigure{\Alph{section}\arabic{figure}}
+  \renewcommand\thetable{\Alph{section}\arabic{table}}
+}
+% % % % % % % % % % % % % % % % % % % % % % % % % 
+\begin{document}
+\input{main}
+\end{document}
+
